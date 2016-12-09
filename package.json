@@ -1,0 +1,39 @@
+{
+  "name": "npm-scout",
+  "version": "0.1.0",
+  "description": "Merge useful informations from the package.json and the repository of a NPM package",
+  "main": "src/index.js",
+  "author": {
+    "name": "LasaleFamine",
+    "email": "info@godev.space"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "npm",
+    "github",
+    "scout",
+    "npm-info",
+    "npm-api",
+    "npm-scout",
+    "npm-repo-scout"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "xo --space && ava"
+  },
+  "dependencies": {
+    "filter-obj": "^1.1.0",
+    "github-scout": "^1.0.0",
+    "package-json": "^2.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  }
+}
